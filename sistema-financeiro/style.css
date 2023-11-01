@@ -4,24 +4,19 @@
     box-sizing: border-box;
     font-family: 'poppins', sans-serif;
     outline: none;
-    background-color: #644a85;
+    background-color: #c8b0e7;
 }
 
 body{
     height: 100vh;
-    display: flex;
-    justify-content: center; 
+    justify-content: center;
+    margin:0; 
 }
 
-div.container {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) 
-} 
-
+h1{
+    color: blanchedalmond;
+    margin: 50px;
+}
 main{
     max-width: 550px;
     width: 100%;
@@ -63,7 +58,7 @@ main{
 }
 
 .newItem>button {
-    background-color: #4b2c83;
+    background-color: #634994;
     color: white;
     border: none;
     padding: 0 15px;
@@ -99,11 +94,11 @@ i{
 }
 
 .bxs-chevron-up-circle{
-    color: #a18cff;
+    color: #2f7552;
 }
 
 .bxs-chevron-down-circle{
-    color: #f10000;
+    color: #eb4545;
 }
 
 .columnAction{
@@ -124,4 +119,5 @@ i{
     width: 80px;
     text-align: center;
 }
+
 
